@@ -1,0 +1,57 @@
+
+
+.navbar {
+    background-color: #333;
+    padding: 15px 0;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.centered {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Alinea verticalmente los elementos en el centro */
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.dropdown {
+    display: flex;
+    position: absolute;
+    top: 100%; /* Muestra el dropdown debajo del botón 5 */
+    left: 0;
+    flex-direction: column;
+    background-color: #333;
+    border-radius: 5px;
+    margin-top: 5px;
+    height: 300px;
+    width: 200px;
+}
+
+.dropdown button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0; /* Elimina el border-radius en los botones del dropdown */
+    cursor: pointer;
+}
+
+.dropdown button:hover {
+    background-color: #45a049;
+}
